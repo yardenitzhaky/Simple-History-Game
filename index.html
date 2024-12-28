@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <title>הרפתקה מתמטית בזמן</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="background"></div>
+  <div class="container">
+    <header>
+      <h1 id="main-title">הרפתקה מתמטית בזמן</h1>
+      <div id="score">ניקוד: 0</div>
+    </header>
+    <section id="game-area">
+      <div id="intro">
+        <p>
+          ברוכים הבאים, הרפתקנים אמיצים! אתם עומדים לצאת למסע מרתק בזמן, אך לא הכל הולך לפי התוכנית...
+        </p>
+        <p>
+          בעקבות תקלה במכונת הזמן, מצאתם את עצמכם תקועים במצרים העתיקה. כדי לתקן את המכונה ולחזור הביתה, עליכם לפתור 3 חידות מאתגרות.
+        </p>
+        <p>
+          כל תשובה נכונה תקרב אתכם צעד נוסף אל עבר תיקון המכונה, ותזכה אתכם בנקודות יקרות. ככל שתענו מהר יותר, כך תצברו ניקוד גבוה יותר, ותאיצו את תהליך התיקון.
+        </p>
+        <p>
+          הזמן אוזל, גורלכם תלוי בחדות המחשבה שלכם! האם תצליחו לפתור את החידות, לתקן את מכונת הזמן ולחזור הביתה בשלום?
+        </p>
+        <button id="startButton">התחל מסע בזמן!</button>
+      </div>
+      <div id="story" style="display: none;"></div>
+      <div id="timer" style="display: none;">זמן נותר: 0</div>
+      <input type="text" id="answer" placeholder="הזן תשובה כאן" style="display: none;">
+      <div id="buttons" style="display: none;">
+        <button id="guessButton">נחש</button>
+        <button id="hintButton">רמז</button>
+      </div>
+      <div id="message" style="display: none;"></div>
+      <div id="summary" style="display: none;">
+        <h2>סוף המשחק!</h2>
+        <p id="summary-message"></p>
+        <p id="final-score"></p>
+        <button id="restartButton">שחק שוב</button>
+      </div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
