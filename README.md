@@ -1,6 +1,8 @@
-# Time Travel Math Adventure
+# ⏳ Time Travel Math Adventure ⏳
 
-This is a simple web-based riddle game where you are trapped in ancient Egypt and must solve riddles to fix your time machine and return home.
+🚀 Embark on a thrilling journey to ancient Egypt in this simple web-based riddle game! 🧮 You're trapped in the past due to a time machine malfunction, and only by solving challenging riddles can you fix it and return home! 🏜️
+
+**Play the game here:** [https://yardenitzhaky.github.io/Simple-History-Game/](https://yardenitzhaky.github.io/Simple-History-Game/)
 
 
 
